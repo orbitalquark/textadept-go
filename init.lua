@@ -117,8 +117,8 @@ textadept.editing.autocompleters.go = function()
         path = path:gsub('_(%a+)_?%w*$', {darwin = '', linux = '', windows = ''})
         -- Consider each part of a path to be a package and submembers to be members of parent
         -- packages. This is a simplification to show more completion possibilities.
-        -- For example, given foo/bar/baz, each is a package and baz's public members will show up
-        -- as completions in bar.
+        -- For example, given foo/bar/baz, each is a package and baz's public members will show
+        -- up as completions in bar.
         for package_name in path:gmatch('[^/]+') do packages[package_name] = true end
       end
       -- Show package member completions (and builtins when possible).

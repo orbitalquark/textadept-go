@@ -1,7 +1,7 @@
 #!/usr/bin/lua
 -- Copyright 2022 Mitchell. See LICENSE.
--- Generates tags and api documentation for Go's standard library with the help of `go doc` and
--- `gotags`.
+-- Generates tags and api documentation for Go's standard library with the help of `go doc`
+-- and `gotags`.
 
 -- LuaFormatter off
 local std = {
