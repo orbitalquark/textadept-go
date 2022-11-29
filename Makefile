@@ -17,5 +17,5 @@ else
   archive = git archive HEAD --prefix $(1)/ | tar -xf -
 endif
 
-release: python ; zip -r $<.zip $< -x "$</.git*" && rm -r $<
-python: ; $(call archive,$@)
+release: go ; zip -r $<.zip $< -x "$</.git*" && rm -r $<
+go: ; $(call archive,$@)
