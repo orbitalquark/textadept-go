@@ -3,6 +3,8 @@
 The go module.
 It provides utilities for editing Go code.
 
+**WARNING:** this module is deprecated. It will no longer work in Textadept 12.0.
+
 ## Fields defined by `_M.go`
 
 <a id="_M.go.autocomplete_snippets"></a>
